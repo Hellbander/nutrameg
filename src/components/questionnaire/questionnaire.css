@@ -1,0 +1,80 @@
+.body {
+  width: 100vw;
+  background: linear-gradient(180deg, #E2E9E5 0%, #ECECEC 100%);
+}
+
+.main {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  left: 150px;
+}
+
+.questionnaire {
+  width: 358px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-left {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.sliderWrapper {
+  position: relative;
+  margin-top: 32px;
+}
+
+.full-slider {
+  position: absolute;
+}
+
+.slider {
+  position: absolute;
+}
+
+.title {
+  margin-top: 32px;
+  color: #444134;
+  text-align: center;
+  font-family: 'Young Serif', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.button {
+  width: 326px;
+  margin-top: 160px;
+  margin-bottom: 24px;
+  padding: 18px 16px;
+  background: #BAD5C8;
+  color: #444134;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px #81814629;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 414px) {
+  .main {
+    width: 414px;
+  }
+  
+  .logo {
+    left: revert;
+    right: 32px;
+  }
+}

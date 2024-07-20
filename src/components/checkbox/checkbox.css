@@ -1,0 +1,50 @@
+.checkbox-wrapper {
+  margin-top: 16px; 
+  padding: 18px 16px;
+  border: 1px solid #D4D4D4;
+  border-radius: 6px;
+}
+
+div.checked {
+  border-color: #DBCDB3;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  margin-right: 8px;
+  border: 1px solid #DBCDB3;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox-label span {
+  color: #444134;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+
+}
+
+input.checked {
+  background-color: #DBCDB3;
+  position: relative;
+}
+
+input.checked::before {
+  content: url('../../assets/tick.svg');;
+  color: #FFFFFF;
+  position: absolute;
+  right: 5px;
+  top: 4px;
+}

@@ -1,0 +1,158 @@
+.goals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.goals-text {
+  width: 524px;
+}
+
+.goals-text-header {
+  font-family: 'Young Serif', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  color: #444134;
+  margin-bottom: 48px;
+}
+
+.goals-text-question {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #444134;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.weight-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.weight-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.weight-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 218px;
+  height: 30px;
+  padding: 18px 16px;
+  border-radius: 6px 0px 0px 0px;
+  box-shadow: 0px 4px 4px 0px #81814629;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  background: #BAD5C8;
+  color: #444134;
+
+  cursor: pointer;
+}
+
+.last{
+  width: 492px;
+  height: 30px;
+}
+
+.goals-images {
+  width: 524px;
+  height: 694px;
+}
+
+.image-postion {
+  position: absolute;
+}
+
+.smiley-woman {
+  width: 550px;
+  height: 708px;
+  top: 84px;
+  z-index: 2;
+}
+
+.ellipce {
+  top: 504px;
+}
+
+.group {
+  top: 169px;
+  right: -15px;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 414px) {
+  .goals {
+    flex-direction: column;
+    padding: 28px 24px;
+  }
+
+  .goals-text {
+    width: 100%;
+  }
+
+  .goals-text-header {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .weight-wrapper {
+    width: 100%;
+  }
+
+  .weight-item {
+    width: 143px;
+  }
+
+  .last {
+    width: 335px;
+  }
+
+  .image-postion {
+    position: relative;
+  }
+
+  .goals-images {
+    position: relative;
+    width: 414px;
+    height: 478px;
+  }
+
+  .smiley-woman {
+    position: absolute;
+    width: 414px;
+    height: 478px;
+    left: -19px;
+    top: 0;
+  }
+  
+  .ellipce {
+    position: absolute;
+    width: 490px;
+    top: 273px;
+    left: -62px;
+  }
+  
+  .group {
+    position: absolute;
+    width: 532px;
+    height: 420px;
+    top: 58px;
+    left: -141px;
+    z-index: 1;
+  }
+}

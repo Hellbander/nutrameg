@@ -1,0 +1,26 @@
+.disclaimer-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.disclaimer-text {
+  font-family: 'Josefin Sans',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #404040;
+}
+
+@media screen and (max-width: 414px) {
+  .disclaimer-wrapper {
+    width: 366px;
+    padding: 0 24px;
+  }
+
+  .disclaimer-text {
+    margin: 0 0 24px 0;
+  }
+}

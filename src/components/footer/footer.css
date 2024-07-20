@@ -1,0 +1,48 @@
+.footer {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  background: #EDEAE2;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #404040;
+}
+
+.arrow {
+  width: 15px;
+  height: 17px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.terms {
+  display: flex;
+}
+
+.terms .text {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 414px) {
+  .footer {
+    padding: 24px 28px;
+  }
+
+  .text {
+    margin: 0;
+    margin-top: 16px;
+  }
+
+  .terms {
+    flex-direction: column;
+  }
+}
